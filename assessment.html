@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br"    xml:lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language"
+          content="pt-br">
+          
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+          <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+          <link rel="stylesheet"
+          href="style.css"
+          type="text/css">
+          <title>Assessment - Interfaces - Gabriel Justino</title>
+</head>
+
+<body>
+<div id="container">
+
+    <nav class="menu">
+        <img
+        alt="Logotipo Escudo Jedi"
+        title="Logotipo Escudo Jedi"
+        
+        src="simbolo.png">
+
+        <div class="logo">            
+            <h1>dados abertos</h1>
+        </div>
+    
+        <div class="espacador"></div>
+    
+            <ul class="opcoesmenu">
+                <li><a href="index.html" title="INICIO">
+                    <h1>INICIO</h1></a></li>
+    
+                <li><a href="#deputados" title="DEPUTADOS">
+                    <h1>DEPUTADOS</h1></a></li>
+    
+                <li><a href="#partidos" title="PARTIDOS">
+                    <h1>PARTIDOS</h1></a></li>
+    
+                <li><a href="#noticias" title="NOTICIAS">
+                    <h1>NOTICIAS</h1></a></li>
+    
+    
+                <li><a href="#eventos" title="EVENTOS">
+                    <h1>EVENTOS</h1></a></li>
+    
+                <li><a href="#contato" title="CONTATO">
+                    <h1>CONTATO</h1></a></li>
+    
+                <li><a href="assessment.html" title="ASSESSMENT">
+                    <h1>ASSESSMENT</h1></a></li>
+            </ul>
+        </nav>
+
+<header class="inicio">
+    
+    <section class="boxinicio boxcentralizado">
+        <div class="texto sombreado">
+        <h1 class=" texto textogrande sombreado">QUESTÕES DO ASSESSMENT </h1>
+            <p class="">Aluno: Gabriel Justino Marques Couto.</p>
+        </div>
+    
+    <a href="#deputados" class="fundocorprimaria botao arredondado">QUESTÕES</a>
+
+    </section>
+
+</header>
+<main>
+     
+
+
+    <section class="boxcentralizado" id="deputados">
+
+        <section class="pesquisa">
+        <h2 class="textocorprimaria">Questão 1</h2>
+        <p class="textocinza textodeputados titulonormal resposta">1) Quando é recomendando a criação de um site separado para mobile? Seria
+            este o caso deste site da GK Fashion ou do site integrado de Interfaces com JS - SPA?
+        </p>
+            <p class="resposta">É recomendado quando a maior parte dos acessos são feitos
+                 por dispositívos móveis e  quando há orçamento/necessidade suficiente 
+                 a versão mobile separada da interface. No caso da GK Fashion há uma vitrine
+                de roupas que provavelmente será visualizada por uma proporção maior
+                 parte do publico  mobile  se comparado ao single Page pela atividade
+                 de olhar produtos (shopping) ser  mesmo
+                considerado uma forma de lazer. </p>
+        </section>
+        </section>
+    <section class="boxcentralizado">
+    
+        <section class="pesquisa">
+        <h2 class="textocorprimaria">Questão 2</h2>
+        <p class="textocinza textodeputados titulonormal resposta ">2) No caso de um CSS específico para print, como ele deve ser inserido?</p>
+            <p class="resposta">Ele deve ser inserido dentro de uma folha de estilos css linkada ao documento html, através da tag @media. Exemplo:
+                @media print{
+                    /**regras css para impressao*/
+                }
+            </p>
+        </section>
+        </section>
+            <section class="boxcentralizado">
+    
+                <section class="pesquisa">
+                <h2 class="textocorprimaria">Questão 3</h2>
+                <p class="textocinza textodeputados titulonormal resposta">3) O elemento audio permite como elemento‐filho o elemento source. Quais são
+                    os atributos que o source permite e qual conteúdo eles suportam? Quais os
+                    outros atributos do elemento audio e quando devem ser utilizados?
+                    
+                    </p>
+                    <p class="resposta">A tag source permite definir atributos de midia como 'media' que define  a forma da visibilidade no navegador
+                         'type' para definição do formato da midia bem como seus codecs.<br/> Na maioria dos casos não é desejado que o audio
+                        seja reproduzido instantamente, nas exceções á esses casos pode-se definir o atributo 'autoplay' no elemento 'audio' 
+                    para definir que a musica seja reproduzida assim que o elemento audio for carregado, e o atributo 'muted' para reproduzir 
+                    a midia mutada, também é possível reproduzir a midia novamente quando ela chegar ao fim através do atributo 'loop'
+                    bem como habilitar  botões para controle de pausa/play,volume etc dentro do elemento a definir o atributo 'controls' </p>
+                    
+                </section>
+                
+                </section>
+
+
+                <section class="boxcentralizado">
+    
+                    <section class="pesquisa">
+                    <h2 class="textocorprimaria">Questão 4</h2>
+                    <p class="textocinza textodeputados titulonormal resposta">4) O elemento video permite como elemento‐filho o elemento source. Quais são
+                        os atributos que o source permite e qual conteúdo eles suportam? Quais os
+                        outros atributos do elemento video e quando devem ser utilizados?</p>
+                        <p class="resposta">Os atributos permitidos pelo source são 'src' definindo o caminho do video, 
+                            seja em arquivo ou url,  'type' definindo o formato da midia e os codecs tal como é utilizada quando
+                        definida dentro de uma tag '< audio >'. 
+                        O elemento video herda todos os atributos explicados acima do elemento audio: 'loop','muted','controls' e 'autoplay'
+                         e torna possível o redimensionamento do video através das tags 'width' -- que define a largura do video -- 
+                        e 'height' -- que define sua altura, esses valores entretanto não podem ser porcentagem </p>
+                    </section>
+                    </section>
+                    <section class="boxcentralizado">
+    
+                        <section class="pesquisa">
+                        <h2 class="textocorprimaria">Questão 5</h2>
+                        <p class="textocinza textodeputados titulonormal resposta">5) No caso do canvas, 
+                            HTML 5 nunca, em momento algum, fez qualquer
+                            animação. Isso porquê o HTML 5 é uma simples linguagem de marcação. Dessa
+                            forma, o que é necessário para criar animações com HTML5? O que são APIs do
+                            HTML5?</p>
+                            Para criar animações com o HTML5 é necessário a manipulação do elemento HTML 'Canvas'
+                            pelo javascript através de coordenadas que devem ser desenhadas e formas pré-definidas 
+                            como a função 'fillRect()' que recebe como parametros as coordenadas do ponto inicial e tamanho 
+                            do retangulo.<br/>
+                            APIs do HTML5 são serviços como funções comumente utilizadas que foram integradas nativamente
+                            ao HTML5 um exemplo disso foi o suporte introduzido à reprodução de video e audio pelas tags respectivas
+                            detalhadas nas questões anteriores, previamente á essa época era necessário um plugin à parte para 
+                            reprodução de videos nos navegadores como Adobe Flash ou Quicktime, que muitas vezes não era compatível à
+                            todas as plataformas(navegadores).
+                        </section>
+                        </section>
+                        <section class="boxcentralizado">
+    
+                            <section class="pesquisa">
+                            <h2 class="textocorprimaria">Questão 6</h2>
+                            <p class="textocinza textodeputados titulonormal resposta">6) Como o CSS3 pode ser aplicado 
+                                na aparência da multimídia HTML5.
+                                Demonstre com um exemplo.</p>
+                                <style>
+
+                                    .videoContainer{
+                                        margin: 0;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                    }
+                                    .botaoVideo{
+                                        border: none;
+                                        background-color: blue;
+                                        color: aliceblue;
+                                    }
+                                    .botaoVideo:hover{
+                                        background-color: white;
+                                        color:blue;
+                                    }
+                                </style>
+                                <div class="videoContainer">
+
+    <button class="botaoVideo" id=playbotao>play/pause</button>
+    <video id="videoInicial" >
+        <source src="http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4" 
+        type="video/mp4">
+    </video>
+    
+
+    <script>
+        function pausaOuPlay(){
+            let pausadoOuParou = videoInicial.ended ||videoInicial.paused
+            if(pausadoOuParou){
+             videoInicial.play()
+             return;
+            }
+            videoInicial.pause()
+            return;
+        }
+        playbotao.onclick = ()=>{
+            pausaOuPlay()
+        }
+        
+    </script>
+    </div>
+                            </section>
+                            </section>
+
+</section>
+
+</section>
+</main>
+<footer class="boxflex fundocorprimaria botaozaoflex final">
+    
+    <div>        
+    <p>
+        <span class="fa fa-copyright"></span> Instituto Infnet - Assessment Interfaces Web
+    </p>
+    </div>
+    <div>
+        <a href="#container">
+        <span class="fas fa-angle-up"></span></a>
+    </div>
+</footer>
+</div>
+<script>
+window.onscroll=(eve)=>{
+    let alturaPagina = window.pageYOffset;
+    let barraNavegacao = document.querySelector("nav");
+    if(alturaPagina>500){
+        barraNavegacao.style.background = 'var(--cor-primaria)';
+        barraNavegacao.style.padding = '1% 0% 0.5% 1%'
+        return;
+    }
+    barraNavegacao.style.background = ''
+    barraNavegacao.style.padding = '3% 0% 0.5% 1%'
+    return;
+}
+</script>
+</body>
+
+</html>

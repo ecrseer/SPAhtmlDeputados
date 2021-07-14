@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto&display=swap');
+:root{
+    --cor-primaria:#163448;
+    --fundo-primario:#fbfbfb;
+}
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.textocorprimaria{
+    color:var(--cor-primaria);
+    margin: 7% 0 1% 0;
+}
+.fundocorprimaria{
+    background: var(--cor-primaria);
+    color:var(--fundo-primario);
+}
+.textocinza{
+    color:#484a46;
+    line-height: 1;
+}
+.espacador{
+    /* width: 29%; */
+}
+.textodeputados{
+    font-weight:bold; 
+    font-size:1.6em;
+    line-height:4;
+}
+
+body {
+    /**background-color: #000;*/
+    background-color: var(--fundo-primario);
+
+    font-family: 'Arial','Roboto', sans-serif;
+}
+
+.logo{
+    /* margin-left: 4em; */
+    display: flex;
+    padding: 0;
+    margin: 0% 1% 0% 6%;
+    font-size: 1.4em;
+    font-weight: bold;
+    align-content: space-between;
+}
+.logo img{
+    margin: 0;
+    /* display: flex; */
+}
+
+.texto,h1{
+    color: white;
+    font-size: 0.9em;
+}
+
+.textogrande{
+    font-size: 3.9em;
+}
+
+.sombreado{
+    text-shadow: 0.1em 0.1em var(--cor-primaria);
+    margin: 0.5em;
+}
+.botao{
+    text-decoration:none;
+    font-weight: bold;
+    padding:1.4vmax 2.9vmax;    
+    font-size:0.7em;
+    box-sizing: border-box;    
+    border: 1px rgba(0, 0, 0, 0) solid;
+}
+.botao:hover{
+    background-color: var(--fundo-primario);
+    color: var(--cor-primaria);
+    border: 1px var(--cor-primaria) solid;
+    box-sizing: border-box;
+}
+.arredondado{
+    border-radius:0.4vw;
+}
+ 
+input,textarea{
+    width: 40%;
+    
+    padding:1em;
+    box-sizing:border-box;
+    text-decoration:none;
+    border-width: 1px;
+    border-color:rgba(0,0, 0, 0.1);
+    margin:1em;
+}
+/**fim dos componentes*/
+
+header.inicio {
+    background-image: url("fundocamara.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    margin-top: -15%;
+    padding-top: 10em;
+}
+
+.boxinicio{
+    padding: 11em 0em;
+}
+.boxcentralizado{
+    text-align: center;
+    line-height: 3em;
+    /* margin-top: 5%; */
+}
+.margemtopo{
+    margin: 0.4em;
+}
+a {
+    text-decoration: none; 
+    color:var(--fundo-primario)   
+}
+nav.menu {
+    /* color:white; */
+    padding: 3% 0% 0.5% 1%;
+    font-size: 0.8em;
+    position: sticky;
+    top: 0%;
+    /* background: rgba(0, 0, 0, 1); */
+    /* max-height:50px; */
+    transition:background-color 0.5s ease-in-out;
+}
+nav.menu:hover {
+    color:rgba(0,0,42,0.7);
+    transition:color 0.5s ease-in-out;
+}
+nav.menu  * {
+    display: inline;
+    padding: 0.3em 0.2em;
+    /* flex-wrap: nowrap; */
+} 
+
+
+
+nav.menu ul li a h1:hover {      
+    font-size: 0.94em;    
+    color:rgba(44, 225, 228, 0.7);
+    transition:all 1s ease-in-out;
+}
+.opcoesmenu{
+    margin-left: 16%;
+}
+ 
+
+.titulonormal{
+    line-height: 2;
+}
+
+.cardsection > *{
+    margin: 1.5em 0.5em;
+}
+
+div.card{
+    width: 19%;
+    /* height: 63vmin; */
+    background-color: white;
+    border-radius: 1em;
+    display: inline-block;
+    line-height: 1.2em;
+    border: solid;
+    border-width: 1px;
+    border-color:rgba(0,0, 0, 0.1);
+}
+div.card img{
+    margin-top:1px;
+    width: 100%;
+    
+}
+div.desccard{
+    padding: 10px 25px;
+    text-align: left;
+    font-size: 0.85em;
+}
+div.card ul{
+    list-style-type:circle;
+    margin:1.2em 0em 0em 2em;
+}
+.socialicones{
+    font-weight: bold;
+    font-size: 1.3em;
+    
+}
+.socialicones a{
+    color: var(--cor-primaria);
+}
+
+.boxflex{
+    display:flex;
+    flex-direction: row;
+    margin: 0 13%;
+}
+.boxinformativo{
+    padding: 0 0 0 3%;
+}
+.flexcolunar{
+    flex-direction: column;
+    margin: 0em 1em 2em;
+}
+.boxflex > *{
+    margin: 1em 0em 0em 0em;
+}
+.botaozaoflex{
+    display: flex;
+    justify-content: center;
+}
+.margembotao{
+    margin: 0em 30%;
+    line-height: 1em;
+    
+}
+.efeitoimagem{
+    transition: transform 3s;
+}
+.efeitoimagem:hover{
+    transform: scale(1.05);
+    object-fit: cover;
+}
+#eventos *{
+    line-height: 2;
+}
+
+
+.eventoscards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.eventodata{
+    border-left: solid;
+    width: 100%;
+    text-align: left;
+    margin: 0em 0.7em;
+    padding: 0em 0.7em;
+}
+.formulario{
+    flex-direction: column;
+    width: 138%;
+    margin: 1% 0 9% 0;
+}
+.formulario input,textarea{    
+    width: 100%;    
+    border-width: 1px;
+    border-color:rgba(0,0, 0, 0.1);
+}
+ 
+.final{
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 1em;
+    margin: 0;
+}
+footer > div:nth-child(2n){margin-left: 32%;}
+
+.resposta{
+    margin: 2em 9em;
+}
